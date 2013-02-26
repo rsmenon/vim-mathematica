@@ -30,10 +30,60 @@ if exists('g:mma_candy') && g:mma_candy > 0
 	syntax keyword mmaSystemSymbol Integers conceal cchar=ℤ
 	syntax keyword mmaSystemSymbol Complexes conceal cchar=ℂ
 	syntax keyword mmaSystemSymbol Rationals conceal cchar=ℚ
+
+	"Greek
+	syntax match mmaSymbol "\\\[CapitalAlpha\]" conceal cchar=Α
+	syntax match mmaSymbol "\\\[CapitalBeta\]" conceal cchar=Β
+	syntax match mmaSymbol "\\\[CapitalGamma\]" conceal cchar=Γ
+	syntax match mmaSymbol "\\\[CapitalDelta\]" conceal cchar=Δ
+	syntax match mmaSymbol "\\\[CapitalEpsilon\]" conceal cchar=Ε
+	syntax match mmaSymbol "\\\[CapitalZeta\]" conceal cchar=Ζ
+	syntax match mmaSymbol "\\\[CapitalEta\]" conceal cchar=Η
+	syntax match mmaSymbol "\\\[CapitalTheta\]" conceal cchar=Θ
+	syntax match mmaSymbol "\\\[CapitalIota\]" conceal cchar=Ι
+	syntax match mmaSymbol "\\\[CapitalKappa\]" conceal cchar=Κ
+	syntax match mmaSymbol "\\\[CapitalLambda\]" conceal cchar=Λ
+	syntax match mmaSymbol "\\\[CapitalMu\]" conceal cchar=Μ
+	syntax match mmaSymbol "\\\[CapitalNu\]" conceal cchar=Ν
+	syntax match mmaSymbol "\\\[CapitalXi\]" conceal cchar=Ξ
+	syntax match mmaSymbol "\\\[CapitalOmicron\]" conceal cchar=Ο
+	syntax match mmaSymbol "\\\[CapitalPi\]" conceal cchar=Π
+	syntax match mmaSymbol "\\\[CapitalRho\]" conceal cchar=Ρ
+	syntax match mmaSymbol "\\\[CapitalSigma\]" conceal cchar=Σ
+	syntax match mmaSymbol "\\\[CapitalTau\]" conceal cchar=Τ
+	syntax match mmaSymbol "\\\[CapitalUpsilon\]" conceal cchar=Υ
+	syntax match mmaSymbol "\\\[CapitalPhi\]" conceal cchar=Φ
+	syntax match mmaSymbol "\\\[CapitalChi\]" conceal cchar=Χ
+	syntax match mmaSymbol "\\\[CapitalPsi\]" conceal cchar=Ψ
+	syntax match mmaSymbol "\\\[CapitalOmega\]" conceal cchar=Ω
+	syntax match mmaSymbol "\\\[Alpha\]" conceal cchar=α
+	syntax match mmaSymbol "\\\[Beta\]" conceal cchar=β
+	syntax match mmaSymbol "\\\[Gamma\]" conceal cchar=γ
+	syntax match mmaSymbol "\\\[Delta\]" conceal cchar=δ
+	syntax match mmaSymbol "\\\[Epsilon\]" conceal cchar=ε
+	syntax match mmaSymbol "\\\[Zeta\]" conceal cchar=ζ
+	syntax match mmaSymbol "\\\[Eta\]" conceal cchar=η
+	syntax match mmaSymbol "\\\[Theta\]" conceal cchar=θ
+	syntax match mmaSymbol "\\\[Iota\]" conceal cchar=ι
+	syntax match mmaSymbol "\\\[Kappa\]" conceal cchar=κ
+	syntax match mmaSymbol "\\\[Lambda\]" conceal cchar=λ
+	syntax match mmaSymbol "\\\[Mu\]" conceal cchar=μ
+	syntax match mmaSymbol "\\\[Nu\]" conceal cchar=ν
+	syntax match mmaSymbol "\\\[Xi\]" conceal cchar=ξ
+	syntax match mmaSymbol "\\\[Omicron\]" conceal cchar=ο
+	syntax match mmaSymbol "\\\[Pi\]" conceal cchar=π
+	syntax match mmaSymbol "\\\[Rho\]" conceal cchar=ρ
+	syntax match mmaSymbol "\\\[Sigma\]" conceal cchar=σ
+	syntax match mmaSymbol "\\\[Tau\]" conceal cchar=τ
+	syntax match mmaSymbol "\\\[Upsilon\]" conceal cchar=υ
+	syntax match mmaSymbol "\\\[Phi\]" conceal cchar=φ
+	syntax match mmaSymbol "\\\[Chi\]" conceal cchar=χ
+	syntax match mmaSymbol "\\\[Psi\]" conceal cchar=ψ
+	syntax match mmaSymbol "\\\[Omega\]" conceal cchar=ω
 endif
 
 "These might be troublesome if the appropriate fonts are missing. Also, they don't
-"look quite as good as the earlier ones, so enable only if the user chooses
+"look quite as good as the earlier ones, so enable only if the user chooses to
 if exists('g:mma_candy') && g:mma_candy == 2
 	"Constants
 	syntax keyword mmaSystemSymbol I conceal cchar=ⅈ
