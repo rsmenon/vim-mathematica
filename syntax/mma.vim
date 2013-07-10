@@ -65,7 +65,7 @@ syntax keyword mmaTodo TODO FIX FIXME BUG contained
 syntax region mmaComment start=+(\*+ end=+\*)+ skipempty contains=mmaComment, mmaTodo
 
 "Strings
-syntax region mmaString start=+"+ skip=+![\\\\]\\"+ end=+"+ skipempty
+syntax region mmaString start=+"+ skip=+\(\\\)\@<!\\"+ end=+"+ skipempty
 
 "Numbers
 syntax match mmaNumber "\<\%(\d\+\.\=\d*\|\d*\.\=\d\+\)\>"
