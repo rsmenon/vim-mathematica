@@ -10,10 +10,10 @@ Please read the features section for more details.
 
 ##Installation
 
-To use the plugin, extract the contents of the [zip file](https://github.com/rsmenon/vim-mathematica/archive/master.zip) to your `~/.vim` directory (or its equivalent on Windows). If you use [Pathogen](https://github.com/tpope/vim-pathogen), then you can either extract the contents to `~/.vim/bundles/vim-mathematica` or clone this git repository
+To use the plugin, extract the contents of the [zip file](https://github.com/rsmenon/vim-mathematica/archive/master.zip) to your `~/.vim` directory (or its equivalent on Windows). If you use [Pathogen](https://github.com/tpope/vim-pathogen), then you can either extract the contents to `~/.vim/bundle/vim-mathematica` or clone this git repository
 
 ```
-git clone git@github.com:rsmenon/vim-mathematica.git ~/.vim/bundles/vim-mathematica
+git clone git@github.com:rsmenon/vim-mathematica.git ~/.vim/bundle/vim-mathematica
 ```
 
 ##Features
