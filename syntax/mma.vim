@@ -74,6 +74,7 @@ syntax match mmaNumber "[A-Za-z]\+`\d\+\%(\d\@!\.\|\>\)" contains=mmaSymbol,mmaS
 
 "Slots & Slotsequences
 syntax match mmaSlot "#\%(#\d*\|\d\+\)\="
+syntax match mmaSlot "#\%([A-Za-z0-9`$]+\)"
 
 "Patterns
 syntax match mmaPattern "[A-Za-z0-9`$]*_\{1,3}\%([A-Za-z0-9`$]\+\)\="
