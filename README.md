@@ -3,7 +3,7 @@
 This plugin provides functionality for working with _Mathematica_ files in vim. Some of the features are:
 
  - Syntax highlighting for _Mathematica's_ `.m` files (including built-ins functions)
- - Omni code completion for ``System` `` functions (as of _Mathematica_ 9.0.1) using `Ctrl-X Ctrl-O`
+ - Omni code completion for ``System` `` functions (as of _Mathematica_ 10.0.0) using `Ctrl-X Ctrl-O`
  - Smart concealment of operators such as `:>` with `⧴` and Front-End generated symbols such as `\[Alpha]` with their Greek counterpart, `α`.
 
 Please read the features section for more details.
@@ -21,7 +21,7 @@ git clone git@github.com:rsmenon/vim-mathematica.git ~/.vim/bundles/vim-mathemat
 ###Syntax highlighting
 Highlighting is supported for
 
- - Built-in symbols (as of 9.0.1)
+ - Built-in symbols (as of 10.0.0)
  - User defined symbols
  - Strings, numbers, operators and comments
  - Messages and patterns (only the LHS of named patterns)
